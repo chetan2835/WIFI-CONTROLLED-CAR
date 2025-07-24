@@ -1,12 +1,9 @@
-/*Nodemcu ESP8266 WIFI control car with the New Blynk app.
-   This code created by the SriTu Hobby team.
-   Home Page
-*/
+/*NodeMCU ESP8266 WIFI control car with the New Blynk app. */
 
 // Include the library files
 #define BLYNK_PRINT Serial
-#define BLYNK_TEMPLATE_ID "TMPL31Mfqnplx"   // Replace with your actual Template ID
-#define BLYNK_TEMPLATE_NAME "Boat" // Replace with your actual Template Name
+#define BLYNK_TEMPLATE_ID ""   // Enter with your actual Template ID
+#define BLYNK_TEMPLATE_NAME "" // Enter with your actual Template Name
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
 
@@ -31,9 +28,9 @@ bool Right = 0;
 
 
 
-char auth[] = "jfJ5bU2i3t-J09XUgWzxOmC-BGF7bm6a"; //Enter your Blynk auth token
-char ssid[] = "Redmi Note 13 5G"; //Enter your WIFI name
-char pass[] = "mittstjmhxhgv6r"; //Enter your WIFI passowrd
+char auth[] = ""; //Enter your Blynk auth token
+char ssid[] = ""; //Enter your WIFI name
+char pass[] = ""; //Enter your WIFI passowrd
 
 
 void setup() {
